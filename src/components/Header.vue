@@ -27,11 +27,14 @@
               
             <div class="text-jumbo text-center text-light">
                 <div class="row">
-                    <h1 class="text-uppercase fw-bold">no pain no gain</h1>
-                    <h2>Motivation is what gets you started. Habit is what keeps you going.</h2>
-                    <div class="btn-jumbo">
-                        <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase">join us today</a></button>
+                    <div class="col">
+                        <h1 class="text-uppercase fw-bold">no pain no gain</h1>
+                        <h2>Motivation is what gets you started. Habit is what keeps you going.</h2>
+                        <div class="btn-jumbo">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase">join us today</a></button>
+                        </div>
                     </div>
+                    
                     
 
 
@@ -79,6 +82,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '@/style/commons.scss';
 
 .jumbo{
     background-image: url('../assets/home-banner.jpg');
