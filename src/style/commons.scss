@@ -16,6 +16,18 @@
     padding: 10px 35px;  
 }
 
+.bcg-btn-trasparent{
+    background-color: transparent;
+    border: 1px solid #b8b9b9;   
+    font-size: 1.25rem;  
+    padding: 10px 35px;  
+    
+}
+
+.bcg-btn-trasparent:hover{    
+    border: 1px solid #ffffff;   
+}
+
 
 .text_nounderline{
     text-decoration: none;

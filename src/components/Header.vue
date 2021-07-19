@@ -1,7 +1,9 @@
 <template>
-    <header class="">        
-        <section class="headernav">
+    <header class="jumbo"> 
+        <div class="headernav"> 
             <div class="row">
+                
+                
                 <div class="col-3 logo-contenent">
                     <a class="" href="https://avada.theme-fusion.com/gym/membership/"><img src="@/assets/gym_logo_1x.png" alt=""></a>
 
@@ -17,14 +19,30 @@
                     <button class="bcg-btn-orange" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase text-light">join us today!</a></button>
 
                 </div>
+                
             </div>
+        </div>
 
-            
-        </section> 
         
-       <section class="jumbo">
-            
-       </section> 
+              
+            <div class="text-jumbo text-center text-light">
+                <div class="row">
+                    <h1 class="text-uppercase fw-bold">no pain no gain</h1>
+                    <h2>Motivation is what gets you started. Habit is what keeps you going.</h2>
+                    <div class="btn-jumbo">
+                        <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase">join us today</a></button>
+                    </div>
+                    
+
+
+                </div> 
+            </div>  
+        
+        
+                       
+         
+        
+        
     </header>
 </template>
 
@@ -62,39 +80,68 @@ export default {
 
 <style scoped lang="scss">
 
-.headernav{
-    background-color: black;
-    padding: 30px 70px;
+.jumbo{
+    background-image: url('../assets/home-banner.jpg');
+    background-size: cover;
+    height: 580px;
 
-    ul{  
+    .headernav{
+        padding: 30px 70px;
+
+        ul{  
         margin-top: 12px;
 
-        li{       
-            display: inline-block;
-            margin-right: 45px;        
-            font-size: 1.25rem;        
-        
-            a{
-                color: white;
-                text-decoration: none;
+            li{       
+                display: inline-block;
+                margin-right: 45px;        
+                font-size: 1.25rem;        
+            
+                a{
+                    color: white;
+                    text-decoration: none;
 
-                
-                &:hover{
-                    color: #ee6059;
-                }
-            }    
-                
+                    &:hover{
+                        color: #ee6059;
+                    }
+                }        
+            }
+        }   
+
+        .joinusitem{
+            padding: 40px 0;
+        } 
+    }
+   
+
+    
+    
+    
+    .text-jumbo{
+        h1{
+            font-size: 7rem;                      
+            line-height: 1;          
         }
-    }
 
-    
+        h2{
+            font-size: 1.25rem;             
+            letter-spacing: 1px;  
+            margin-top: 30px;   
+            margin-bottom: 20px;    
+        }
 
-    .joinusitem{
-        padding: 40px 0;
-    }
-
-    
+        .btn-jumbo{
+            a{
+                color: #b8b9b9; 
+                &:hover{
+                        color: white;
+                }
+            }
+        }
+    }    
 }
+
+
+
 
     
 
