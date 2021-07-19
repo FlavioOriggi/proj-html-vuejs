@@ -42,37 +42,50 @@
         <section class="fusion bcg-lightblack">            
             <div class="container-xl"> 
                 <div class="row">
-                    <div class="col-3 img-contenent text-center">                        
-                        <i class="fas fa-unlink i-red"></i>
-                        <h2 class="text-light fw-bold mb-2">Strength e Conditioning</h2>                                               
+                    <div class="col-3 item-fusion text-center">  
+                        <div class="icon-contenent d-flex justify-content-center">                      
+                            <div class="i-red">
+                                <i class="fas fa-unlink"></i>
+                            </div>
+                        </div> 
+                        <h2 class="mb-2">Strength e Conditioning</h2>                                               
                         <img class="img-fusion mb-2" src="@/assets/divider-x-red.png" alt="">
                         <p class="p-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div> 
 
-                    </div>  
-                    <div class="col-3 img-contenent text-center">
-                        <div>
-                            <i class="fas fa-bicycle i-red"></i>
-                        </div>                        
-                        <h2 class="text-light  fw-bold">Fitness e Cardio</h2>
+                    <div class="col-3 item-fusion text-center"> 
+                        <div class="icon-contenent d-flex justify-content-center">                       
+                            <div class="i-red">
+                                <i class="fas fa-bicycle"></i> 
+                            </div>    
+                        </div>                                           
+                        <h2>Fitness e Cardio</h2>
                         <img class="img-fusion" src="@/assets/divider-x-red.png" alt="">
                         <p class="p-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div> 
 
-                    </div> <div class="col-3 img-contenent text-center">
-                        <div>
-                            <i class="fab fa-cloudversify i-red"></i>
-                        </div>                        
-                        <h2 class="text-light  fw-bold">Flexibility e Rest</h2>
+                    <div class="col-3 item-fusion text-center"> 
+                        <div class="icon-contenent d-flex justify-content-center">
+                            <div class="i-red">                      
+                                <i class="fab fa-cloudversify"></i>
+                            </div> 
+                        </div> 
+                                                                      
+                        <h2>Flexibility e Rest</h2>
                         <img class="img-fusion" src="@/assets/divider-x-red.png" alt="">
                         <p class="p-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div> 
 
-                    </div> <div class="col-3 img-contenent text-center">
-                        <div>
-                            <i class="fas fa-heartbeat i-red"></i>
-                        </div>                        
-                        <h2 class="text-light  fw-bold">Health e Diet</h2>
+                    <div class="col-3 item-fusion text-center"> 
+                        <div class="icon-contenent d-flex justify-content-center">
+                            <div class="i-red">
+                                <i class="fas fa-heartbeat"></i>
+                            </div> 
+                        </div>                       
+                                                                        
+                        <h2>Health e Diet</h2>
                         <img class="img-fusion" src="@/assets/divider-x-red.png" alt="">
                         <p class="p-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
-
                     </div>                   
                     
                 </div>
@@ -147,8 +160,7 @@ main{
 
         .form-item{
             padding: 0 25px;
-            margin-bottom: 20px;
-            padding: 0 15px;
+            margin-bottom: 20px;            
             
             .form-control.active{
                 background-color: #25292b                
@@ -157,13 +169,7 @@ main{
             .btn-form{
                 width: 100px;
             }
-        }
-
-        
-
-
-
-        
+        }  
     }
 
     .fusion{
@@ -175,16 +181,18 @@ main{
         padding-right: 30px;
         padding-bottom: 110px;
 
-        .img-contenent{
-            &:hover{
-                color:#ee6059;
-            }           
-
+        .item-fusion{          
+    
             h2{
                 font-size: 1.2rem;
                 line-height: 1.28;
                 font-weight: bold;
-                color: white;
+                color: white; 
+                
+                &:hover{
+                    color:#ee6059;
+                    cursor: pointer;
+                }  
             }
 
         }
