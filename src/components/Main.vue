@@ -26,13 +26,13 @@
                         <h3 class="text-light fw-bold mb-5">Sign Up For A Free Training Session</h3>                            
                         <div class="mb-5">
                             <p class="text-light-gray">Name* </p>
-                            <input type="text" class="form-control bcg-lightgrey border border-light py-3">
+                            <input type="text" class="form-control bcg-lightgrey border border-secondary py-3">
                         </div>                        
                         <div class="mb-5">
                             <p class="text-light-gray">Email</p>
-                            <input type="text" class="form-control bcg-lightgrey border border-light py-3" >
-                        </div>                        
-                        <button><a href="#" class="btn-form button-xlarge bcg-btn-orange text_nounderline text-uppercase text-light">start now</a></button>      
+                            <input type="text" class="form-control bcg-lightgrey border border-secondary py-3" >
+                        </div>                       
+                        <button class="btn-form text-uppercase text-light">start now</button>      
                     </form>
                 </div>
             </div>         
@@ -228,7 +228,17 @@
                             <div class="description-mot">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
                             </div>
-                            
+                            <div class="d-flex text-light">
+                                <div class="mot-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-twitter"></i>                                        
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>                            
                         </div>                        
                     </div>
                     <div class="col-4 card-contenent ">                         
@@ -427,13 +437,14 @@ main{
 
         .form-item{
             padding: 0 25px;
-            margin-bottom: 20px;            
-            
-            .form-control.active{
-                background-color: #25292b                
-            }            
+            margin-bottom: 20px;           
+                                    
             .btn-form{
-                width: 100px;
+                background-color: #ee6059;
+                border: none;    
+                font-size: 1.25rem;  
+                width: 100%;
+                padding: 15px 0; 
             }
         }  
     }
