@@ -146,15 +146,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="btn-jumbo">
-                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/about-us/" class="text_nounderline text-uppercase">view all trainers</a></button>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </section>
 
@@ -223,35 +214,25 @@
             <div class="container-xl"> 
                 <div class="row">
                     <div class="col text-rwr text-center">
-                        <h2 class="title-section-h2 text-uppercase">meet ou trainers</h2>
+                        <h2 class="title-section-h2 text-uppercase">meet our trainers</h2>
                         <img class="double-x" src="@/assets/divider-xx-red.png" alt=""> 
                     </div>
                 </div>
                 
-                <div class="row g-1">
+                <div class="row g-1 mb-3">
                     <div class="col-4 card-contenent ">                                                    
-                        <img class="card-mot" src="@/assets/trainer1.jpg" alt="">
+                        <img class="card-img" src="@/assets/trainer1.jpg" alt="">
                         <div class="card-item_p40 bcg-lightgrey">
                             <div class="person-mot">Ann Baker</div>
                             <div class="title-mot">Personal Trainer</div>
                             <div class="description-mot">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
                             </div>
-                            <div class="d-flex text-light">
-                                <div class="mot-icons">
-                                    <i class="fab fa-facebook-f"></i>
-                                </div>
-                                <div class="mot-icons">
-                                    <i class="fab fa-twitter"></i>                                        
-                                </div>
-                                <div class="mot-icons">
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </div>
+                            
                         </div>                        
                     </div>
                     <div class="col-4 card-contenent ">                         
-                        <img class="card-mot" src="@/assets/trainer3.jpg" alt=""> 
+                        <img class="card-img" src="@/assets/trainer3.jpg" alt=""> 
                         <div class="card-item_p40 bcg-lightgrey">
                             <div class="person-mot">Anne Warren</div>
                             <div class="title-mot">Personal Trainer</div>
@@ -272,7 +253,7 @@
                         </div>                        
                     </div>
                     <div class="col-4 card-contenent  ">                        
-                        <img class="card-mot" src="@/assets/trainer4.jpg" alt=""> 
+                        <img class="card-img" src="@/assets/trainer4.jpg" alt=""> 
                         <div class="card-item_p40 bcg-lightgrey">
                             <div class="person-mot">Peter Rice</div>
                             <div class="title-mot">Personal Trainer</div>
@@ -293,8 +274,113 @@
                         </div>                         
                     </div>                    
                 </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-mot text-center mt-5">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/about-us/" class="text_nounderline text-uppercase">view all trainers</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider-candy"></div> 
             </div>
-        </section>          
+        </section> 
+
+        <!-- sezione PERFORMANCE NEWS -->
+        <section class="pn p_150_30_150_30 bcg-lightgrey">
+            <div class="container-xl"> 
+                <div class="row">
+                    <div class="col text-rwr text-center">
+                        <h2 class="title-section-h2 text-uppercase">high performances facilities</h2>
+                        <img class="double-x" src="@/assets/divider-xx-red.png" alt=""> 
+                    </div>
+                </div>
+
+                <div class="row g-1 mb-3">
+                    <div class="col-4 card-contenent_p20 ">
+                        <div class="card-up mb-4">
+                            <img class="card-img" src="@/assets/blog1.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">Train with free weights or your body weight?</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>  
+                        <div class="card-low pt-4">
+                            <img class="card-img" src="@/assets/blog4.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">To be number one, train like you’re number two</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>                                                   
+                                                
+                    </div>
+                    <div class="col-4 card-contenent_p20 "> 
+                        <div class="card-up mb-4">
+                            <img class="card-img" src="@/assets/blog6.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">Nutritional advice that will keep you training</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>  
+                        <div class="card-low pt-4">
+                            <img class="card-img" src="@/assets/trainer3.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">Top 5 mistakes every gym member makes</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>                                                                    
+                    </div>
+                    <div class="col-4 card-contenent_p20 ">
+                        <div class="card-up mb-4">
+                            <img class="card-img" src="@/assets/trainer4.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">Simple principles for your next workout</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>  
+                        <div class="card-low pt-4">
+                            <img class="card-img" src="@/assets/trainer1.jpg" alt="">
+                            <div class="card-item-pn bcg-lightblack">
+                                <h2><a href="" class="text_nounderline fw-bold">The myths of shedding body fat explored</a></h2>
+                                <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                
+                            </div>
+                        </div>                                                                      
+                    </div>                                
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-pn text-center mt-5">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/blog/" class="text_nounderline text-uppercase">read all articles</a></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section> 
+
+        <!-- sezione Achieve Your Fitness Goals -->
+        <section class="ayfg">
+            <div class="container-xl"> 
+                <div class="row">                    
+                    <div class="col-9 text-light">
+                        <h2>Achieve Your Fitness Goals</h2>
+                        <p class="mb-4">Flexible membership packages to suit all levels of athlete and achive your fitness goals</p>
+                    </div>
+                    <div class="col-3">
+                        <div class="btn-ayfg">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/blog/" class="text_nounderline text-uppercase">join us</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>         
     </main>
 </template>
 
@@ -317,13 +403,9 @@ main{
             font-size: 1.25rem;            
         }
         .divider-candy{
-            position: relative;
             left: 48.5%;
-            bottom: -137px;
-            background-color:#25292b;
-            height: 55px;
-            width: 55px;
-            transform: rotate(-45deg);
+            bottom: -129px;
+            background-color:#25292b;          
             border-bottom: 1px solid #25292b;
             border-left: 1px solid #25292b; 
         }
@@ -427,49 +509,121 @@ main{
 
     }
 
-    .mot{
-        
-            .card-mot{
-                width: 100%;
+    .mot{        
+        .card-img{
+            width: 100%;
+            &:hover{                    
+                transform: scale(1.05); // da migliorare leffetto
+                box-shadow: 0 3px 15px rgba(0,0,0,.4);
+            }
+        }
+        .card-item_p40{
+            .person-mot, .title-mot{
+                font-size: 1rem;
+                color: white;
+                font-weight: bold;
+            }
+            .description-mot{
+                font-size: 1rem;                    
+                text-align: left;
+                color: #aaa9a9; 
+                padding: 30px 0;
+                line-height: 1.5rem;                                   
+            }
+            .mot-icons{                    
+                background-color: #1a1c1e;
+                border-radius: 5px;
+                height: 40px;
+                width: 40px;
+                padding-top: 4px;
+                padding-left: 14px;                    
+                margin: 0 5px 10px 5px;
+                color: white;
                 &:hover{                    
-                    transform: scale(1.05); // da migliorare leffetto
-                    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+                    color: rgb(221, 221, 221);                            
+                    cursor: pointer;                       
                 }
+                
+                
             }
-            .card-item_p40{
-                .person-mot, .title-mot{
-                    font-size: 1rem;
-                    color: white;
-                    font-weight: bold;
-                }
-                .description-mot{
-                    font-size: 1rem;                    
-                    text-align: left;
-                    color: #aaa9a9; 
-                    padding: 30px 0;
-                    line-height: 1.5rem;                                   
-                }
+            
+        }
 
-                .mot-icons{                    
-                    background-color: #1a1c1e;
-                    height: 40px;
-                    width: 40px;
-                    padding-top: 4px;
-                    padding-left: 14px;                    
-                    margin: 0 5px 10px 5px;
-                    color: white;
-                    &:hover{                    
-                        color: rgb(194, 194, 194);                            
-                        cursor: pointer;                       
-                    }
-                    
-                    
-                }
+        .btn-mot{                
+            a{
+                color:#b8b9b9;
+                &:hover{                   
+                    color:#ffffff;                                                      
+                    cursor: pointer;                       
+                } 
             }
+        }
         
-
+        .divider-candy{            
+            left: 48.5%;
+            bottom: -169px;    
+            background-color: #1a1c1e;
+            border-bottom: 1px solid #1a1c1e;
+            border-left: 1px solid #1a1c1e; 
+        }
     }
 
+    .pn{
+        .card-item-pn{
+            padding: 30px 25px 20px 25px;
 
+            a{
+                color: white;
+                font-size: 1.5rem;                
+                &:hover{                    
+                    color: #ee6059;
+                }
+            }
+            p{
+                word-wrap: break-word; 
+                line-height: 1.8;               
+            }
+        }
+
+        .btn-pn{
+            
+            a{
+                color:#b8b9b9;
+                &:hover{                   
+                    color:#ffffff;                                                      
+                    cursor: pointer;                       
+                } 
+            }
+        }
+    }
+
+    .ayfg{
+        background-image: url('../assets/home-parallax.jpg');
+        background-size: cover;
+        background-position:initial;
+        padding: 65px 30px 50px 30px;
+
+        h2{
+            line-height: 1.28;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        p{
+                font-size: 1.25rem;                
+
+        }
+
+        .btn-ayfg{
+            margin:30px 0 20px 0;
+            a{
+                color:#b8b9b9;
+                &:hover{                   
+                    color:#ffffff;                                                      
+                    cursor: pointer;                       
+                } 
+            }
+        }
+
+    }
 }
 </style>

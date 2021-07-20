@@ -1,9 +1,11 @@
 @import 'bootstrap';
 
 // -------  BACKGROUND PADDING
-
 .card-contenent{
     padding: 0 25px;   
+}
+.card-contenent_p20{
+    padding: 20px;
 }
 .card-item_p30{
     padding: 30px;
@@ -38,6 +40,15 @@
     border: 1px solid #ffffff;   
 }
 
+// ------- BACKGROUND DIVISOR
+.divider-candy{
+    position: relative;    
+    background-color:#1a1c1e;           
+    height: 40px;
+    width: 40px;
+    transform: rotate(-45deg);     
+}
+
 
 // ------- TEXT OPTIONS
 .text_nounderline{
@@ -47,7 +58,7 @@
     color: #aaa9a9
 }
 .text-fix-orange{
-    color: #ee6059
+    color: #ee6059;
 }
 .i-red{    
     color: #ee6059;
@@ -69,4 +80,18 @@
 .double-x{
     width: 30px;
     margin: 30px 0; 
+}
+.card-img{
+    width: 100%;
+}
+
+// ------- ICONS OPTIONS
+
+.footer-icons{
+    background-color: #ee6059;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;                       
+    margin: 0 5px 10px 5px;
+    color: white;
 }
