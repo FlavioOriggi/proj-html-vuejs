@@ -3,15 +3,17 @@
 // -------  BACKGROUND PADDING
 
 .card-contenent{
-    padding: 0 25px;
-   
+    padding: 0 25px;   
 }
-.card-item{
+.card-item_p30{
     padding: 30px;
 }
-
-
-
+.card-item_p40{
+    padding: 40px;
+}
+.p_150_30_150_30{
+    padding: 150px 30px 150px 30px;
+}
 
 // -------  BACKGROUND COLORS
 .bcg-lightgrey{

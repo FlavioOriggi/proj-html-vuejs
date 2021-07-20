@@ -102,47 +102,55 @@
                 
                 <div class="row g-1">
                     <div class="col-6 card-contenent">
-                        <div class="card-item d-flex mb-4">
+                        <div class="card-item_p30 bcg-lightblack d-flex mb-4">
                             <div>
                                 <img class="" src="@/assets/review_1-compressor.jpg" alt="">
                             </div>
-                            <div class="text-card">
+                            <div class="text-results">
                                 <span class="text-light-gray">“The trainers at Avada Gym have helped me reach my fitness goals beyond anything I    could of hoped for. I love it!”</span>
-                                <p class="text-light-gray">– Tara Smith</p>
+                                <p class="text-light-gray fw-bold mt-1">– Tara Smith</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 card-contenent">
-                        <div class="card-item d-flex mb-4">
+                        <div class="card-item_p30 bcg-lightblack d-flex mb-4">
                             <div>
                                 <img class="" src="@/assets/review_3-compressor-2.jpg" alt="">
                             </div>
-                            <div class="text-card">
+                            <div class="text-results">
                                 <span class="text-light-gray">“The atmosphere at Avada Gym is amazing, the people are even better. All in all, it   is a great place to work out.”</span>
-                                <p class="text-light-gray">– Simon Chel</p>
+                                <p class="text-light-gray fw-bold mt-1">– Simon Chel</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 card-contenent">
-                        <div class="card-item d-flex mb-5">
+                        <div class="card-item_p30 bcg-lightblack d-flex mb-5">
                             <div>
                                 <img class="" src="@/assets/review_2-compressor.jpg" alt="">
                             </div>
-                            <div class="text-card">
+                            <div class="text-results">
                                 <span class="text-light-gray">“The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment.”</span>
-                                <p class="text-light-gray">– Jen Wirth</p>
+                                <p class="text-light-gray fw-bold mt-1">– Jen Wirth</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6  card-contenent">
-                        <div class="card-item d-flex mb-5">
+                        <div class="card-item_p30 bcg-lightblack d-flex mb-5">
                             <div>
                                 <img class="" src="@/assets/review_4-compressor-2.jpg" alt="">
                             </div>
-                            <div class="text-card">
+                            <div class="text-results">
                                 <span class="text-light-gray">“No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.”</span>
-                                <p class="text-light-gray">– Jeff Glum</p>
+                                <p class="text-light-gray fw-bold mt-1">– Jeff Glum</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="btn-jumbo">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/about-us/" class="text_nounderline text-uppercase">view all trainers</a></button>
                         </div>
                     </div>
                 </div>
@@ -151,7 +159,7 @@
         </section>
 
         <!-- sezione HIGH PERFORMANCE FACILITIES -->
-        <section class="hpf bcg-lightgrey">
+        <section class="hpf p_150_30_150_30 bcg-lightgrey">
             <div class="container-xl"> 
                 <div class="row">
                     <div class="col text-rwr text-center">
@@ -162,32 +170,32 @@
                 
                 <div class="row g-1">
                     <div class="col-4 card-contenent ">
-                        <div class="card-item ">                            
+                        <div class="card-item_p30 ">                            
                             <img class="img-wcf" src="@/assets/home-image1.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-4 card-contenent ">
-                        <div class="card-item"> 
+                        <div class="card-item_p30"> 
                             <img class="img-wcf" src="@/assets/home-image2.jpg" alt="">  
                         </div>
                     </div>
                     <div class="col-4 card-contenent  ">
-                        <div class="card-item">
+                        <div class="card-item_p30">
                             <img class="img-wcf" src="@/assets/home-image3.jpg" alt="">  
                         </div>
                     </div>
                     <div class="col-4  card-contenent ">
-                        <div class="card-item">                            
+                        <div class="card-item_p30">                            
                             <img class="img-wcf" src="@/assets/home-image4.jpg" alt="">                            
                         </div>
                     </div>
                     <div class="col-4  card-contenent ">
-                        <div class="card-item">                            
+                        <div class="card-item_p30">                            
                             <img class="img-wcf" src="@/assets/home-image54.jpg" alt="">                            
                         </div>
                     </div>
                     <div class="col-4  card-contenent ">
-                        <div class="card-item">                            
+                        <div class="card-item_p30">                            
                             <img class="img-wcf" src="@/assets/home-image6.jpg" alt="">                            
                         </div>
                     </div>
@@ -206,14 +214,87 @@
                         <p class="text-uppercase fw-bold py-3">bruce lee • quote of the day</p>
                     </div>
                     <div class="col-2"></div>
-
-
-
-
-
                 </div>
             </div>
-        </section>           
+        </section> 
+        
+        <!-- sezione MEET OUR TRAINERS -->
+        <section class="mot p_150_30_150_30 bcg-lightblack">
+            <div class="container-xl"> 
+                <div class="row">
+                    <div class="col text-rwr text-center">
+                        <h2 class="title-section-h2 text-uppercase">meet ou trainers</h2>
+                        <img class="double-x" src="@/assets/divider-xx-red.png" alt=""> 
+                    </div>
+                </div>
+                
+                <div class="row g-1">
+                    <div class="col-4 card-contenent ">                                                    
+                        <img class="card-mot" src="@/assets/trainer1.jpg" alt="">
+                        <div class="card-item_p40 bcg-lightgrey">
+                            <div class="person-mot">Ann Baker</div>
+                            <div class="title-mot">Personal Trainer</div>
+                            <div class="description-mot">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
+                            </div>
+                            <div class="d-flex text-light">
+                                <div class="mot-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-twitter"></i>                                        
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-4 card-contenent ">                         
+                        <img class="card-mot" src="@/assets/trainer3.jpg" alt=""> 
+                        <div class="card-item_p40 bcg-lightgrey">
+                            <div class="person-mot">Anne Warren</div>
+                            <div class="title-mot">Personal Trainer</div>
+                            <div class="description-mot">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
+                            </div>
+                            <div class="d-flex text-light">
+                                <div class="mot-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-twitter"></i>                                        
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-4 card-contenent  ">                        
+                        <img class="card-mot" src="@/assets/trainer4.jpg" alt=""> 
+                        <div class="card-item_p40 bcg-lightgrey">
+                            <div class="person-mot">Peter Rice</div>
+                            <div class="title-mot">Personal Trainer</div>
+                            <div class="description-mot">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
+                            </div>
+                            <div class="d-flex">
+                                <div class="mot-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-twitter"></i>                                        
+                                </div>
+                                <div class="mot-icons">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>                    
+                </div>
+            </div>
+        </section>          
     </main>
 </template>
 
@@ -228,10 +309,7 @@ export default {
 @import '@/style/commons.scss';
 main{
     .w-class-fit{
-        padding-top: 140px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 110px;       
+        padding: 140px 30px 110px 30px;              
 
         .paragraph-wcf{
             margin-bottom: 20px;
@@ -306,23 +384,20 @@ main{
         padding: 130px 30px 130px 30px;              
 
         .card-contenent{                     
-            .card-item{                
-                background-color: #1a1c1e;
+            .card-item_p30{               
                 .text-results{
-                    padding-left: 30px;
-                    
+                    margin-left: 30px;                    
                     span{
-                        line-height: 2.07;                        
+                        line-height: 2.07;              
                     }
                 }
             }            
         }
     }
 
-    .hpf{
-        padding: 150px 30px 150px 30px;
+    .hpf{        
         .card-contenent{
-            .card-item{
+            .card-item_p30{
                 img{
                     &:hover{                    
                         transform: scale(1.05); // da migliorare leffetto
@@ -347,10 +422,51 @@ main{
             p{
                 letter-spacing: 2px;
                 font-size: 1.25rem;
-
-
             }          
         }
+
+    }
+
+    .mot{
+        
+            .card-mot{
+                width: 100%;
+                &:hover{                    
+                    transform: scale(1.05); // da migliorare leffetto
+                    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+                }
+            }
+            .card-item_p40{
+                .person-mot, .title-mot{
+                    font-size: 1rem;
+                    color: white;
+                    font-weight: bold;
+                }
+                .description-mot{
+                    font-size: 1rem;                    
+                    text-align: left;
+                    color: #aaa9a9; 
+                    padding: 30px 0;
+                    line-height: 1.5rem;                                   
+                }
+
+                .mot-icons{                    
+                    background-color: #1a1c1e;
+                    height: 40px;
+                    width: 40px;
+                    padding-top: 4px;
+                    padding-left: 14px;                    
+                    margin: 0 5px 10px 5px;
+                    color: white;
+                    &:hover{                    
+                        color: rgb(194, 194, 194);                            
+                        cursor: pointer;                       
+                    }
+                    
+                    
+                }
+            }
+        
 
     }
 
