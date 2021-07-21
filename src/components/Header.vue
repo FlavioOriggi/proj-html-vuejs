@@ -9,7 +9,7 @@
                 </div>
 
                 <nav class="col-6 navbar text-light">                    
-                    <ul class="">
+                    <ul class="">                                
                         <li v-for="(link,index) in links" :key="index"><a href="#" class="text-uppercase" > {{link.text}} </a></li>                            
                     </ul>                
                 </nav> 
@@ -32,15 +32,17 @@
                     <p>Buy Now</p>
                 </div>
             </div>
-            <div class="row text-light">
-                <div class="col">
-                    <h1 class="text-uppercase fw-bold">no pain no gain</h1>
-                    <h2>Motivation is what gets you started. Habit is what keeps you going.</h2>
-                    <div class="btn-jumbo">
-                        <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase">join us today</a></button>
+            <div class="container-xl">
+                <div class="row ">
+                    <div class="col text-light">
+                        <h1 class="text-uppercase fw-bold">no pain no gain</h1>
+                        <h2>Motivation is what gets you started. Habit is what keeps you going.</h2>
+                        <div class="btn-jumbo">
+                            <button class="bcg-btn-trasparent" ><a href="https://avada.theme-fusion.com/gym/membership/" class="text_nounderline text-uppercase">join us today</a></button>
+                        </div>
                     </div>
-                </div>
-            </div> 
+                </div> 
+            </div>
         </div> 
     </header>
 </template>

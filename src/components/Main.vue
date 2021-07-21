@@ -26,11 +26,11 @@
                         <h3 class="text-light fw-bold mb-5">Sign Up For A Free Training Session</h3>                            
                         <div class="mb-5">
                             <p class="text-light-gray">Name* </p>
-                            <input type="text" class="form-control bcg-lightgrey border border-secondary py-3">
+                            <input type="text" class="form-control bcg-lightblack border border-secondary py-3">
                         </div>                        
                         <div class="mb-5">
                             <p class="text-light-gray">Email</p>
-                            <input type="text" class="form-control bcg-lightgrey border border-secondary py-3" >
+                            <input type="text" class="form-control bcg-lightblack border border-secondary py-3" >
                         </div>                       
                         <button class="btn-form text-uppercase text-light">start now</button>      
                     </form>
@@ -43,10 +43,10 @@
             <div class="container-xl"> 
                 <div class="row">
                     <div class="col-3 item-fusion text-center">  
-                        <div class="icon-contenent d-flex justify-content-center">                      
+                        <div class="icon-contenent d-flex justify-content-center">                    
                             <div class="i-red">
                                 <i class="fas fa-unlink"></i>
-                            </div>
+                            </div>                               
                         </div> 
                         <h2 class="mb-2">Strength e Conditioning</h2>                                               
                         <img class="img-fusion mb-2" src="@/assets/divider-x-red.png" alt="">
@@ -309,7 +309,12 @@
                 <div class="row g-1 mb-3">
                     <div class="col-4 card-contenent_p20 ">
                         <div class="card-up mb-4">
-                            <img class="card-img" src="@/assets/blog1.jpg" alt="">
+                            <div class="card-img-item">
+                                <img class="card-img" src="@/assets/blog1.jpg" alt="">
+                                <div class="effect-bcg-orange text-light d-flex">                                                                                   
+                                </div>
+                            </div>
+                            
                             <div class="card-item-pn bcg-lightblack">
                                 <h2><a href="" class="text_nounderline fw-bold">Train with free weights or your body weight?</a></h2>
                                 <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
@@ -429,7 +434,8 @@ main{
             .img-form{
                 width: 100%;
                 &:hover{                    
-                    transform: scale(1.05); // da migliorare leffetto
+                    transform: scale(1.05);
+                    transition: 0.5s;
                     box-shadow: 0 3px 15px rgba(0,0,0,.4);
                 }
             }            
@@ -455,9 +461,8 @@ main{
         background-position: center;
         padding: 140px 30px 110px 30px;        
 
-        .item-fusion{   
+        .item-fusion{           
             
-            // manca effetto immagine
     
             h2{
                 font-size: 1.2rem;
@@ -493,7 +498,8 @@ main{
             .card-item_p30{
                 img{
                     &:hover{                    
-                        transform: scale(1.05); // da migliorare leffetto
+                        transform: scale(1.05);
+                        transition: 0.5s;
                         box-shadow: 0 3px 15px rgba(0,0,0,.4);
                         cursor: pointer;
                     }
@@ -524,7 +530,8 @@ main{
         .card-img{
             width: 100%;
             &:hover{                    
-                transform: scale(1.05); // da migliorare leffetto
+                transform: scale(1.05);
+                transition: 0.5s;
                 box-shadow: 0 3px 15px rgba(0,0,0,.4);
             }
         }
@@ -583,6 +590,27 @@ main{
         .card-item-pn{
             padding: 30px 25px 20px 25px;
 
+            .card-contenent_p20{
+                .card-up{
+                    .card-img-item{
+                        position: relative;
+                        // &:hover .effect-bcg-orange{ non funziona
+                        //         display: block;
+                        //         cursor: pointer;
+                        // }
+                        // .effect-bcg-orange{
+                        //     background-color: rgba($color: #ee6059, $alpha: 0.5);
+                        //     position: absolute;
+                        //     top: 6213px;
+                        //     padding: 94px 175px;
+                                                        
+                        //     height: 204px;
+                        //     width: 393px;                            
+                        // }
+                    }
+
+                }
+            }
             a{
                 color: white;
                 font-size: 1.5rem;                
@@ -595,9 +623,7 @@ main{
                 line-height: 1.8;               
             }
         }
-
-        .btn-pn{
-            
+        .btn-pn{            
             a{
                 color:#b8b9b9;
                 &:hover{                   
@@ -623,7 +649,6 @@ main{
                 font-size: 1.25rem;                
 
         }
-
         .btn-ayfg{
             margin:30px 0 20px 0;
             a{

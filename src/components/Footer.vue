@@ -1,6 +1,7 @@
 <template>
     <footer class="">
         
+        <!-- sezione parte superiore -->
         <section class="footer-up bcg-lightgrey">
             <div class="footer-icon-display-right">
                 <div class="contenent-icon-display-footer text-light text-center">
@@ -48,6 +49,7 @@
             </div>
         </section>
 
+        <!-- sezione parte inferiore  -->
         <section class="footer-down bcg-lightblack">
             <div class="container-xl">
                 <div class="row">
@@ -63,9 +65,6 @@
                 </div>
             </div>            
         </section> 
-
-                       
-        
     </footer>   
 </template>
 
@@ -154,7 +153,8 @@ data() {
     .footer-up-img{
         img{
             &:hover{                    
-                transform: scale(1.05); // da migliorare leffetto
+                transform: scale(1.05);
+                transition: 0.5s;
                 box-shadow: 0 3px 15px rgba(0,0,0,.4);
                 cursor: pointer;                       
             }
